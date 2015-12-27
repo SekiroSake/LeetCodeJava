@@ -1,5 +1,5 @@
 # LeetCodeJava
-##Code for Fun my friend!
+##How to
 
 ```
 public class test {
