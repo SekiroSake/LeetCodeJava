@@ -13,16 +13,7 @@ public class PalindromePermutation {
 		if (s == null || s.length() <= 1) {
 			return true;
 		}
-		/*
-		int left = 0;
-		int right = s.length() - 1;
-		while (right > left) {
-			if (s.charAt(left++) != s.charAt(right--)) {
-				return false;
-			}
-		}
-		return true;
-		*/
+	
 		Hashtable<Character,Integer> hash = new Hashtable<Character,Integer>();
 		char[] array = s.toCharArray();
 		for(char x : array){
