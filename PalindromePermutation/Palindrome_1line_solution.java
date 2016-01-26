@@ -1,6 +1,7 @@
 
 
 public class Palindrome_onelinesolution {
+	//One line solution
 	public static boolean isPalindrome(String s) {
 	    return s.equals(new StringBuilder(s).reverse().toString());
 	}
